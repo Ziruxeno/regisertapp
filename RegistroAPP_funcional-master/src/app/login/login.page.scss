@@ -1,0 +1,39 @@
+ion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  background-color: #f4f5f8; 
+
+  h1 {
+    font-size: 2rem;
+    color: #3880ff; 
+    text-align: center;
+    margin-top: 20px; 
+  }
+
+#barra1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+  ion-avatar{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+}
+
+body {
+  background-color: #f4f5f8; 
+  font-family: 'Arial', sans-serif; /* Fuente más moderna */
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold; /* Hacer el texto de error más audaz */
+}
